@@ -1,0 +1,20 @@
+title: TeeUniverse
+url: "https://teeuniverse.github.io/teeuniverse-website/"
+
+
+# Build settings
+permalink: /:title/
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - _scripts
+collections:
+  release:
+    output: true
+  packages:
+    output: false
